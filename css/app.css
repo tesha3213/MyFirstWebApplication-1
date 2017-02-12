@@ -1,0 +1,27 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+
+p {
+	text-align: justify;
+}
+
+
+figure {
+	border: 1px solid black; 
+	width: 180px; 
+	padding: 28px;
+}
+
+
+img {
+	width: inherit;
+}
+
+
+figcaption {
+	font-style: italic; 
+	text-align: center;
+}
