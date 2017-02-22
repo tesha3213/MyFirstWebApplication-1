@@ -1,6 +1,9 @@
 body {
-	background-color: black;
-	color: white;
+	background-color: #aaa;
+	color: #333;
+	font-family: "Vivaldi", "Verdana";
+	font-size: 14px;
+	padding: 8px 28px 8px 28px;
 }
 
 
@@ -13,6 +16,7 @@ figure {
 	border: 1px solid black; 
 	width: 180px; 
 	padding: 28px;
+	margin: 0px;
 }
 
 
