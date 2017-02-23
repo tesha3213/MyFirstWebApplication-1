@@ -1,3 +1,9 @@
+.people {
+	overflow: auto;
+	padding: 0 19px 28px 19px;
+	margin: 19px 0 19px 0;
+}
+
 .name {
 	width: 20%;
 	float: left;
@@ -10,4 +16,51 @@
 
 .name > h2 {
 	font-style: italic;
+}
+
+#me {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+/*	Color for the persons I admire	*/
+#bohlen {
+	background-color: #09f;
+	color: #036;
+}
+
+#ma {
+	background-color: #f60;
+	color: #fff;
+}
+
+#honda {
+	background-color: #f00;
+	color: #fff;
+}
+
+#inamori {
+	background-color: #fff;
+	color: #000;
+}
+
+#inamori > .name {
+	color: #f00;
+}
+
+
+/*	Border color for the persons I admire	*/
+#bohlen > .name > figure {
+	border-color: #036;
+}
+
+#honda > .name > figure {
+	border-color: #fff;
+}
+
+#ma > .name > figure, #inamori > .name > figure {
+	border-color: #000;
 }

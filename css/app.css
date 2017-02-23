@@ -29,3 +29,7 @@ figcaption {
 	font-style: italic; 
 	text-align: center;
 }
+
+audio {
+	width: 100%;
+}
