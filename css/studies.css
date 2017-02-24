@@ -40,3 +40,8 @@ td:first-child {
 td:nth-child(2){
 	font-style: italic;
 }
+
+tr:hover {
+	background-color: #4286f4;
+	color: #ccdfff;
+}
