@@ -9,3 +9,34 @@ td, th {
 	text-align: center;
 	padding: 10px;
 }
+
+
+th {
+	background-color: #333;
+	color: #aaa;
+	border-right-color: #aaa;
+}
+
+
+th:last-child {
+	border-right-color: #333;
+}
+
+
+tr.even {
+	background-color: #777;
+	color: #000;
+}
+
+
+tbody > tr:nth-child(4) {
+	border-top: 5px solid #333;
+}
+
+td:first-child {
+	text-align: left;
+}
+
+td:nth-child(2){
+	font-style: italic;
+}
