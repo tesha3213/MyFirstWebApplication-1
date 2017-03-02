@@ -14,6 +14,10 @@ $(function(){
 			);
 		});
 
+		$(this).on('mouseout', function(){
+			$('#my-td').html(null);
+		});
+
 		$(this).on('click', function(){
 
 			$('.highlighted').removeClass('highlighted');
